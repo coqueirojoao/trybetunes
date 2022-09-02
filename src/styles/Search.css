@@ -1,0 +1,90 @@
+.mainSearchDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 25px
+}
+
+.mainSearchDiv p {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.mainSearchDiv span {
+    color: rgb(15, 175, 103)
+}
+
+.searchTitleDiv {
+    display: flex;
+    font-size: 2.0em;
+    justify-content: center;
+}
+
+.searchTitleDiv h1 {
+    font-weight: 200;
+    border-bottom: 2px solid rgb(43, 72, 151);
+}
+
+.searchTitleDiv span {
+    color: rgb(15, 175, 103);
+    text-shadow: 0px 1px 9px gainsboro;
+}
+
+.searchAlbumsBox {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+    text-align: center;
+}
+
+.searchAlbumsBox img {
+    width: 150px;
+    box-shadow: 0px 0px 12px 2px rgb(56, 56, 56);
+    border-radius: 15px;
+}
+
+.searchAlbumsImg {
+    border: 1px dotted rgb(43, 55, 133);
+    background-color: rgb(12, 12, 43);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 2px rgb(0, 0, 0);
+    width: 500px;
+    max-width: 500px;
+    height: 450px;
+    max-height: 450px;
+}
+
+.searchAlbumContent p {
+    font-weight: 500;
+    color: white;
+    font-size: 1.0em;
+    padding: 5px;
+}
+
+.searchAlbumContent {
+    line-height: 35px;
+}
+
+.albumLink {
+    text-decoration: none;
+    box-shadow: 0px 0px 15px 2px rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 2px 15px;
+    background-color: rgb(0, 60, 90);
+    font-weight: 500;
+    text-shadow: 0px 1px 9px gainsboro;
+    color: rgb(87, 182, 139);
+    transition: all 300ms;
+}
+
+.albumLink:hover {
+    color: rgb(129, 248, 194);
+    background-color: rgb(10, 73, 105);
+}

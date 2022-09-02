@@ -1,0 +1,59 @@
+.headerBoxDiv {
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0px 0px 13px 1px rgba(235, 235, 235, 0.713);
+    height: 100px;
+    width: 100%;
+}
+
+.headerBoxDiv h2 {
+    font-size: 3.2em;
+}
+
+.navBoxDiv {
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+    gap: 80px;
+}
+
+.navBoxDiv img {
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px 2px rgb(235, 235, 235);
+}
+
+.navLinks {
+    font-weight: 600;
+    color: rgba(18,122,76,1);
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+.navLinks:hover {
+    color: rgb(38, 162, 106);
+}
+
+.headerBoxDiv h1 {
+    color: white;
+    font-weight: 200;
+    text-shadow: 0px 3px 10px rgb(187, 187, 187);
+}
+
+.titleHeaderBox img {
+    width: 30px;
+    margin-left: 25px;
+}
+
+.titleHeaderBox {
+    display: flex;
+    padding-left: 150px;
+    gap: 25px;
+    align-items: baseline;
+}
+
+.linkHeader {
+    text-decoration: none;
+}

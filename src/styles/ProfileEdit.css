@@ -1,0 +1,19 @@
+.editInputBox {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.editInputBox h3 {
+    color: rgb(118, 127, 185);
+    text-shadow: 0px 1px 25px rgba(255, 255, 255, 0.722);
+}
+
+.editButtonBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
